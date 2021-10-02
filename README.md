@@ -1,9 +1,14 @@
 # Burble - Chat Application
 
 ### Build and deployed a Real-Time Chat Application using React-JS
-
 #### React JS is the programming language of choice, and Chat Engine is a set of APIs and UI Kit specific to chat.
 
+```
+To use the application new users need to contact Admin so that he can invite user into the chat-room.
+For trial, use - 
+Name : Raina
+Password: 123123
+```
 <Br />
 
 #### Topics learned while making this project were sockets, hooks, props, javascript, apis and more.     
