@@ -89,6 +89,39 @@
     font-size: 24px;
 }
 
+.logout-button {
+    display: block;
+    float: right;
+    margin-right: -35px;
+}
+
+.logout {
+    background: url('https://dh3vbjnk0bnfa.cloudfront.net/static/centralauth/images/btn-login-hover.png') no-repeat 5px 5px #484B4F;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px 20px 10px 0;
+    color: White;
+    font-size: .7em;
+    text-align: left;
+    text-indent: 45px;
+    display: block;
+    margin: 0 auto;
+    /* Animations: */
+    -webkit-transition-timing-function: ease-in-out;
+    -webkit-transition-duration: .4s;
+    -webkit-transition-property: all;
+    -moz-transition-timing-function: ease-in-out;
+    -moz-transition-duration: .4s;
+    -moz-transition-property: all;
+}
+
+.logout:hover {
+    background-image: url('https://dh3vbjnk0bnfa.cloudfront.net/static/centralauth/images/btn-login.png');
+    /* background-position: 6px 1px; */
+    text-indent: 18px;
+}
+
 .chat-subtitle {
     color: #7554a0;
     font-weight: 600;
@@ -156,7 +189,7 @@
 .message-form-container {
     position: absolute;
     bottom: 0px;
-    width: calc(100% - 36px);
+    width: calc(97%);
     padding: 18px;
     background-color: rgb(240, 240, 240);
 }
@@ -166,6 +199,7 @@
     border-radius: 6px;
     border: 1px solid #3b2a50;
     background-color: white;
+    width: calc(100% - 132px);
 }
 
 .message-input {
@@ -201,7 +235,7 @@
 .picture-icon {
     top: 1px;
     position: relative;
-    font-size: 14px;
+    font-size: 21px;
 }
 
 
@@ -251,7 +285,7 @@
     color: white;
     margin-bottom: 30px;
     width: 100%;
-    font-size: 2.3em;
+    font-size: 2em;
     ;
 }
 

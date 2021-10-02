@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
 import MessageForm from './MessageForm';
@@ -46,7 +47,12 @@ const ChatFeed = (props) => {
     return (
         <div className="chat-feed">
             <div className="chat-title-container">
-                <div className="chat-title">{chat?.title}</div>
+                <div className="chat-title">
+                    {chat?.title}
+                    {/* <div className="logout-button">
+                        <button className="logout" onClick={handleLogout}>Logout</button>
+                    </div> */}
+                </div>
                 <div className="chat-subtitle">
                     {chat.people.map((person) => ` ${person.person.username}`)}
                 </div>
